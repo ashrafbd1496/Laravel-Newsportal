@@ -7,9 +7,9 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Dashboard - SB Admin</title>
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
-        <script src="js/all.min.js" crossorigin="anonymous"></script>
+        <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+        <link href="{{asset('css/dataTables.bootstrap4.min.css')}}" rel="stylesheet" />
+        <script src="{{asset('js/all.min.js')}}" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -678,14 +678,14 @@
                 </footer>
             </div>
         </div>
-        <script src="js/slim.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/chart-area-demo.js"></script>
-        <script src="assets/demo/chart-bar-demo.js"></script>
-        <script src="js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
-        <script src="js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
-        <script src="assets/demo/datatables-demo.js"></script>
+        <script src="{{asset('js/slim.min.js')}}"></script>
+        <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{asset('js/scripts.js')}}"></script>
+        <script src="{{asset('js/Chart.min.js')}}"></script>
+        <script src="{{asset('jsassets/demo/chart-area-demo.js')}}"></script>
+        <script src="{{asset('jsassets/demo/chart-bar-demo.js')}}"></script>
+        <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
+        <script src="{{asset('js/dataTables.bootstrap4.min.js')}}"></script>
+        <script src="{{asset('assets/demo/datatables-demo.js')}}"></script>
     </body>
 </html>

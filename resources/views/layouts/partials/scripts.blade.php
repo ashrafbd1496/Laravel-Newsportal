@@ -1,0 +1,9 @@
+ <script src="{{asset('js/slim.min.js')}}"></script>
+        <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+        <script src="{{asset('js/scripts.js')}}"></script>
+        <script src="{{asset('js/Chart.min.js')}}"></script>
+        <script src="{{asset('jsassets/demo/chart-area-demo.js')}}"></script>
+        <script src="{{asset('jsassets/demo/chart-bar-demo.js')}}"></script>
+        <script src="{{asset('js/jquery.dataTables.min.js')}}"></script>
+        <script src="{{asset('js/dataTables.bootstrap4.min.js')}}"></script>
+        <script src="{{asset('assets/demo/datatables-demo.js')}}"></script>
